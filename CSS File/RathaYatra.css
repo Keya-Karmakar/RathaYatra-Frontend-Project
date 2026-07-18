@@ -1,0 +1,52 @@
+body
+{
+	margin: 0;
+	font-family: "cooper black",Algerian;
+	background: linear-gradient(to bottom,#ffcc80,#fff3cd);
+	overflow: hidden;
+}
+.container
+{
+	text-align: center;
+	margin-top: 50px;
+}
+h1
+{
+ color: #b71c1c;
+ font-size: 50px;
+}
+h2
+{
+color: #4e342e;
+}
+#rath
+{
+	font-size: 100px;
+	position: relative;
+	left: -500px;
+	transition: left 5s linear;
+	margin-top: 30px;
+	color: maroon;
+}
+button
+{
+	padding: 12px 25px;
+	font-size: 20px;
+	border: none;
+	border-radius: 8px;
+	background: #d32f2f;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+button:hover
+{
+	background: darkblue;
+}
+#msg
+{
+	margin-top: 30px;
+	font-size: 28px;
+	color: green;
+	font-weight: bold;
+}
